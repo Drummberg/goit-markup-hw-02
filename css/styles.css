@@ -234,6 +234,14 @@ footer .container {
     letter-spacing: 0.03em;
     color: #ffffff;
 }
+.color-maps:hover,
+.color-maps:focus {
+    color: #2196f3;
+}
+.color-contacts:hover,
+.color-contacts:focus {
+    color: #2196f3;
+}
 .section-title,
 .card-name,
 .icon-name {
