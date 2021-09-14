@@ -1,9 +1,60 @@
-body {
+body,
+main {
     background-color: #ffffff;
     color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 40px;
+    margin: 8px;
+    display: block;
 }
 .logo {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-right: 93px;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
     color: #2196f3;
+}
+
+.logo-color-white {
+    color: #ffffff;
+}
+header {
+    border-bottom: 1px solid #ececec;
+}
+
+.hero {
+    background-color: #2f303a;
+}
+.hero-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
 }
 ul {
     list-style: none;
@@ -12,9 +63,65 @@ span {
     color: #000000;
 }
 
-.site-nav .link {
-    color: #212121;
+.nav,
+.contacts,
+.site-nav {
+    display: flex;
 }
-.site-nav. link:hover .site-nav. link:focus {
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    padding: 32px 0;
+    display: inline-block;
+}
+
+.site-nav,
+.link {
+    margin-right: 50px;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: #2196f3;
+}
+
+.contacts .link {
+    margin-left: 50px;
+    color: #757575;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: #2196f3;
+}
+
+/* Hero */
+
+.hero .hero-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+.hero-btn {
+    background-color: #2196f3;
+    color: #ffffff;
+    border: none;
+}
+
+/* Section */
+
+.section-title,
+.card-name {
+    color: #000000;
 }
