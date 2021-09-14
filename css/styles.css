@@ -62,7 +62,8 @@ span {
 
 .nav,
 .contacts,
-.site-nav {
+.site-nav,
+.filters {
     display: flex;
 }
 .link {
@@ -93,7 +94,26 @@ span {
 .contacts .link:focus {
     color: #2196f3;
 }
-
+.btn-web:hover,
+.btn-web:focus {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+.btn-apps:hover,
+.btn-apps:focus {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+.btn-design:hover,
+.btn-design:focus {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+.btn-marketing:hover,
+.btn-marketing:focus {
+    background-color: #2196f3;
+    color: #ffffff;
+}
 /* Hero */
 
 .hero .hero-title {
@@ -111,6 +131,9 @@ a {
     text-decoration: none;
 }
 .hero-btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
     background-color: #2196f3;
     color: #ffffff;
     width: 73px;
@@ -123,6 +146,9 @@ a {
 }
 
 .btn-web {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
     background-color: #f5f4fa;
     color: #212121;
     width: 128px;
@@ -135,6 +161,9 @@ a {
 }
 
 .btn-apps {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
     background-color: #f5f4fa;
     color: #212121;
     width: 145px;
@@ -147,6 +176,9 @@ a {
 }
 
 .btn-design {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
     background-color: #f5f4fa;
     color: #212121;
     width: 103px;
@@ -159,6 +191,9 @@ a {
 }
 
 .btn-marketing {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
     background-color: #f5f4fa;
     color: #212121;
     width: 130px;
@@ -180,6 +215,21 @@ footer .container {
     color: rgb(255, 255, 255, 0.6);
 }
 .section-title,
-.card-name {
-    color: #000000;
+.card-name,
+.icon-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+}
+.icon-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
