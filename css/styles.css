@@ -119,6 +119,7 @@ a {
     top: 174px;
     border-radius: 4px;
     cursor: pointer;
+    border: none;
 }
 
 .btn-web {
@@ -130,8 +131,44 @@ a {
     top: 174px;
     border-radius: 4px;
     cursor: pointer;
+    border: none;
 }
 
+.btn-apps {
+    background-color: #f5f4fa;
+    color: #212121;
+    width: 145px;
+    height: 38px;
+    left: 712px;
+    top: 174px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-design {
+    background-color: #f5f4fa;
+    color: #212121;
+    width: 103px;
+    height: 38px;
+    left: 865px;
+    top: 174px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-marketing {
+    background-color: #f5f4fa;
+    color: #212121;
+    width: 130px;
+    height: 38px;
+    left: 976px;
+    top: 174px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
 /* Section */
 footer .container {
     background-color: #2f303a;
