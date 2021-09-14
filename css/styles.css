@@ -11,6 +11,7 @@ main {
     display: flex;
     align-items: center;
     margin-right: 93px;
+    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2;
@@ -204,25 +205,34 @@ a {
     cursor: pointer;
     border: none;
 }
+.icon {
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    border: 1px solid #eeeeee;
+}
 /* Section */
 footer .container {
     background-color: #2f303a;
 }
-.color-maps {
-    color: #ffffff;
-}
 .color-contacts {
-    color: rgb(255, 255, 255, 0.6);
-}
-.footer-text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-
     letter-spacing: 0.03em;
+    color: rgb(255, 255, 255, 0.6);
+}
+.color-maps {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
 }
 .section-title,
 .card-name,
