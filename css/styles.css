@@ -151,6 +151,10 @@ a {
     cursor: pointer;
     border: none;
 }
+.hero-btnn:hover,
+.hero-btnn:focus {
+    color: #188ce8;
+}
 .hero-btn {
     font-family: Roboto;
     font-style: normal;
