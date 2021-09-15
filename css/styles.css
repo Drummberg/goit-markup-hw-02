@@ -26,21 +26,6 @@ header {
     border-bottom: 1px solid #ececec;
 }
 
-.hero {
-    background-color: #2f303a;
-    left: 0px;
-    top: 80px;
-}
-.hero-title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-}
-
 .section {
     padding: 94px 0;
 }
@@ -122,8 +107,14 @@ span {
     color: #ffffff;
 }
 /* Hero */
+.hero {
+    background-color: #2f303a;
+    left: 0px;
+    top: 80px;
+}
 
 .hero .hero-title {
+    font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -322,4 +313,10 @@ footer .container {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+}
+/* Footer */
+.container-footer {
+    background-color: #2f303a;
+    left: 0px;
+    top: 2097px;
 }
