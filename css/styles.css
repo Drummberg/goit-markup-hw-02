@@ -136,6 +136,20 @@ span {
 a {
     text-decoration: none;
 }
+.hero-btnn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #2196f3;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
 .hero-btn {
     font-family: Roboto;
     font-style: normal;
