@@ -95,6 +95,10 @@ a {
 .contacts .link:focus {
     color: var(--active-color);
 }
+/* ---------НАША КОМАНДА--------- */
+.section-item {
+    background-color: #f5f4fa;
+}
 /* ---------КНОПКИ------------ */
 .btn-web:hover,
 .btn-web:focus {
